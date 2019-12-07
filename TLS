@@ -1,0 +1,10 @@
+#Create Keystore file
+-------------------------------
+"%JAVA_HOME%\bin\keytool" -genkey -alias tomcat -keyalg RSA
+
+
+#Create New Keystore File
+----------------------------------
+"%JAVA_HOME%\bin\keytool" -genkey -alias tomcat -keyalg RSA
+  -keystore \path\to\my\keystore
+
